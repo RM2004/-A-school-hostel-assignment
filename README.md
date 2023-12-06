@@ -18,5 +18,18 @@ Students are categorized into four main groups based on their class (A or B) and
 - **AV (A Vegetarian)**
 - **BNV (B Non-Vegetarian)**
 - **ANV (A Non-Vegetarian)**
+  
+### 3. User-Friendly Input
+
+The program allows easy and flexible input through the standard input (stdin). Users can either input data manually or use input redirection from a file, making it adaptable to various scenarios and data sources.
+
+## How to Use
+
+### 1. Compilation
+
+Compile the program using a C++ compiler. For example:
+
+```bash
+g++ sorting_hat.cpp -o sorting_hat
 
 Additionally, students who could not be accommodated within the capacity are listed under **NA (Not Assigned)**, providing transparency in the allocation process.
