@@ -51,3 +51,12 @@ reg 11 A NV
 reg 12 B NV
 reg 13 A NV
 fin
+
+### Example Output
+
+```plaintext
+BV : [1,5,10]
+AV : [2,3,7]
+BNV : [4,9,12]
+ANV : [6,8,11]
+NA : [13]
