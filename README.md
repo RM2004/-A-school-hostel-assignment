@@ -1,4 +1,4 @@
-# Sorting Hat Hostel Allocation System
+# School Hostel Allocation System
 
 ## Overview
 
@@ -25,9 +25,29 @@ Additionally, students who could not be accommodated within the capacity are lis
 
 The program allows easy and flexible input through the standard input (stdin). Users can either input data manually or use input redirection from a file, making it adaptable to various scenarios and data sources.
 
-### 1. Compilation
+## Usage
 
-Compile the program using a C++ compiler. For example:
+### Input Format
 
-```bash
-g++ sorting_hat.cpp -o sorting_hat
+1. The first line: "init <capacity>", where `<capacity>` is the total hostel capacity.
+2. Subsequent lines: "<operation> <rollNo> <classId> <foodPreference>".
+   - `<operation>` is either "fin" to finish input or "reg" to register a student.
+
+### Example Input
+
+```plaintext
+init 12
+reg 1 B V
+reg 2 A V
+reg 3 A V
+reg 4 B NV
+reg 5 B V
+reg 6 A NV
+reg 7 A V
+reg 8 A NV
+reg 9 B NV
+reg 10 B V
+reg 11 A NV
+reg 12 B NV
+reg 13 A NV
+fin
